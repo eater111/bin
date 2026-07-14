@@ -1,0 +1,14 @@
+#!/bin/bash
+charge_level="$(cat /sys/class/power_supply/BAT0/capacity)"
+ac_adapter="$(cat /sys/class/power_supply/ADP1/online)"
+if [[ ac_adapter -eq 0 ]];
+then
+	if [[ charge_level < 20 ]];
+	then
+		echo "Low Battery:" $charge_level
+	else
+		echo "Normal Battery:" $charge_level
+	fi
+else
+	echo "On power:" $charge_level
+fi
