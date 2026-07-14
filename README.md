@@ -16,3 +16,6 @@ root/
 cas/  
 - cas.py - Content-Addressed Storage Engine
 - cas_cli.py - Script to interact with said Storage Engine
+
+outdated/ contains files from a home folder I had on an ancient 2010s macbook linux installation. Recovered 2026-07-14, Dated 2023-07-13  
+I have not documented these files, they are grandfathered into this repository.
