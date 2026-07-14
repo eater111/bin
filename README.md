@@ -11,6 +11,8 @@ root/
 - html_gen.py - Writes index.html recursively for each directory  
 - rename.py - Renames each file in a directory per their hash  
 
-cas/  ! EXPERIMENTAL !  
+! EXPERIMENTAL !  
+
+cas/  
 - cas.py - Content-Addressed Storage Engine
 - cas_cli.py - Script to interact with said Storage Engine
